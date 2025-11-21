@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.4 on win32)" generated="20251121 15:12:16.388" rpa="false" schemaversion="4">
+<suite id="s1" name="EquipmentInspection" source="d:\Project\QaCase\testcases\automation\tests\EquipmentInspection.robot">
+<kw name="Open Browser To Application" type="SETUP">
+<msg timestamp="20251121 15:12:16.864" level="FAIL">No keyword with name 'Open Browser To Application' found. Did you try using keyword 'Browser.Open Browser' and forgot to use enough whitespace between keyword and arguments?</msg>
+<status status="FAIL" starttime="20251121 15:12:16.861" endtime="20251121 15:12:16.873"/>
+</kw>
+<test id="s1-t1" name="TC01 - Load Equipment Inspection Page" line="14">
+<status status="FAIL" starttime="20251121 15:12:16.873" endtime="20251121 15:12:16.875">Parent suite setup failed:
+No keyword with name 'Open Browser To Application' found. Did you try using keyword 'Browser.Open Browser' and forgot to use enough whitespace between keyword and arguments?</status>
+</test>
+<status status="FAIL" starttime="20251121 15:12:16.403" endtime="20251121 15:12:18.617">Suite setup failed:
+No keyword with name 'Open Browser To Application' found. Did you try using keyword 'Browser.Open Browser' and forgot to use enough whitespace between keyword and arguments?</status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="EquipmentInspection">EquipmentInspection</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

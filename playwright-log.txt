@@ -1,0 +1,35 @@
+{"level":30,"time":"2025-11-21T08:12:18.485Z","pid":724,"hostname":"LAWENCON-11","msg":"Listening on 127.0.0.1:60592"}
+(node:724) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\sopan.lubis\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\index.js:12226:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\sopan.lubis\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\index.js:13122:59)
+    at PlaywrightServer.setTimeout (C:\Users\sopan.lubis\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\index.js:13370:57)
+    at Object.onReceiveHalfClose (C:\Users\sopan.lubis\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\sopan.lubis\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\sopan.lubis\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\sopan.lubis\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-11-21T08:12:18.617Z","pid":724,"hostname":"LAWENCON-11","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-21T08:12:18.617Z","pid":724,"hostname":"LAWENCON-11","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\sopan.lubis\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\index.js:12226:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\sopan.lubis\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\index.js:13122:59)
+    at PlaywrightServer.setTimeout (C:\Users\sopan.lubis\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\index.js:13370:57)
+    at Object.onReceiveHalfClose (C:\Users\sopan.lubis\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\sopan.lubis\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\sopan.lubis\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\sopan.lubis\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-11-21T08:12:18.626Z","pid":724,"hostname":"LAWENCON-11","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-21T08:12:18.626Z","pid":724,"hostname":"LAWENCON-11","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-21T08:12:22.600Z","pid":724,"hostname":"LAWENCON-11","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-11-21T08:12:22.600Z","pid":724,"hostname":"LAWENCON-11","msg":"End of node method closeAllBrowsers"}

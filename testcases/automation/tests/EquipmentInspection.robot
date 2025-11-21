@@ -1,12 +1,10 @@
 *** Settings ***
-Resource            ../resources/resources.robot
+Resource            ../keywords/EquipmentInspection.robot
 
-Suite Setup         Open Browser To Application
-Suite Teardown      Close Browser
-
+Suite Setup         Open Web WeMineOffice
+Suite Teardown    Close Browser
 
 *** Variables ***
-${BASE_URL}         https://wemine.com
 ${TEST_IMAGE}       /mnt/data/testimage.png
 
 
@@ -50,13 +48,3 @@ TC05 - Validate New Submission Appears In List
     Should Not Be Empty    ${text}
 
 
-*** Keywords ***
-Open Browser To Application
-    New Browser    chromium    headless=${False}
-    New Context    viewport={'width': 1366, 'height': 768}
-    New Page    ${BASE_URL}
-    # Login jika diperlukan
-    # Fill Text    css=input[name="username"]    admin
-    # Fill Text    css=input[name="password"]    password
-    # Click    css=button[type="submit"]
-    Sleep    1
