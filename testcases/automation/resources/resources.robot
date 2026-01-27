@@ -3,6 +3,9 @@ Library     Browser
 Resource    Variables.robot
 Library     RequestsLibrary
 Resource    ../keywords/login.robot
+Library     appiumlibrary
+
+
 *** Keywords ***
 Open Web WeMineOffice
     New Browser    headless=False
